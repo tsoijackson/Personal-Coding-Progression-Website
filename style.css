@@ -12,6 +12,17 @@ body {
 	background-color: black;
 }
 
+#center_header {
+	height: 100px;
+	margin: auto;
+	width: 1080px;
+}
+
 #left_header {
+	font-size: 40px;
 	color: white;
+	float: left;
+	line-height: 100px;
+	text-align: center;
+	width: 250px;
 }
