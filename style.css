@@ -1,6 +1,10 @@
 
+html {
+	height: 100%;
+}
 
 body {
+	height: 100%;
 	background-color: beige;
 	margin: auto;
 }
@@ -25,6 +29,7 @@ img {
 	filter: alpha(opacity=70);
 	width: 100%;
 	height: 7%;
+	z-index: 100;
 }
 
 #nav_title{
@@ -45,23 +50,40 @@ img {
 
 /* --------------------------*/ /* ---------->>> HOME_SCREEN <<<----------*/ /* --------------------------*/
 
-#home_img {
-        overflow:hidden;
-}
-
-#home_img img {
-           margin: 0px 0px -86px 0px;
-}
-
 #profile_navbar {
 	width: 100%;
 	height: 11%;
-	position: absolute;
-	bottom: 0;
+	position: relative;
+	top: 88%;
 
 }
 
 .navbar_icon {
 	height: 50px;
 	width: 50px;
+}
+
+/* --------------------------*/ /* ---------->>> SECTIONS <<<----------*/ /* --------------------------*/
+
+.Section {
+	height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.SubSection {
+	background-color: green;
+	height: 50%;
+}
+
+.Home {
+	background-image: url(images/front_page.jpg);
+}
+
+.Bio {
+	background-image: url(images/mac.png);
+}
+
+.Contact {
+	background-image: url(images/lamp.png);
 }
